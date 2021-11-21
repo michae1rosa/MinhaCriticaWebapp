@@ -55,3 +55,5 @@ Route::add('/.*', function () {
 
 // Inicia o router
 Route::run(BASEPATH);
+
+<?php  require_once ("home.html") ?>
