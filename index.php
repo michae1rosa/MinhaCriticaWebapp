@@ -3,7 +3,7 @@
 error_reporting(E_ALL ^ E_WARNING);
 
 // Define o basepath globalmente
-define('BASEPATH', '/AppLogin-Listagem/acec/');
+define('BASEPATH', '/');
 
 include_once __DIR__ . '/app/Database.php';
 include_once __DIR__ . '/app/controladores/Controlador.php';
