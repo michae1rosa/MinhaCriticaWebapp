@@ -44,7 +44,7 @@ Route::add('/logout', fn () => $controller->sair(), ['post']);
 
 // Rota auxiliar para redirecionar o usuário.
 Route::add('/', function () {
-    header('Location: ' . BASEPATH . 'login');
+    header('Location: ' . BASEPATH . 'app/visao/users/home.html');
 }, ['get']);
 
 Route::add('/.*', function () {
