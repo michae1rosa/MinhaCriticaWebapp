@@ -1,0 +1,319 @@
+/* Slider */
+.slick-slider
+{
+    position: relative;
+
+    display: block;
+    box-sizing: border-box;
+
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+   /* -webkit-tap-highlight-color: transparent;*/
+}
+
+.slick-list
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+
+    content: '(title)';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+
+
+.slick label {
+    background-color: #000;
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+}
+
+.slick li:nth-child(1) label {
+    left: 10px;
+}
+
+.slick li:nth-child(2) label {
+    left: 40px;
+}
+
+.slick li:nth-child(3) label {
+    left: 70px;
+}
+
+
+
+
+
+
+.slick-slide
+{
+    display: none;
+    float: left;
+
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+
+    height: auto;
+
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+
+
+
+
+/*body*/
+  /*titulos de seções*/
+  h1.lançamento {
+    padding-top: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+  }
+  h1.destaque,
+  h1.avaliação,
+  h1.makingof,
+  h1.novidade,
+  .sobre h1 {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .editorial,
+  .redes h1 {
+    display: none;
+  }
+  h3.filme {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.178);
+    margin-bottom: 0px;
+  }
+  .redes .icones {
+    font-size: 2em;
+    height: inherit;
+    color: rgb(17, 17, 17);
+    position: absolute;
+    right: 5%;
+  }
+  .sobre p {
+    text-align: center;
+  }
+
+  /*destaque*/
+  .destaques {
+    display: flex;
+    overflow: scroll;
+  }
+  .destaques > div {
+    flex: 1 0 300px;
+    margin: 0 10px;
+  }
+  #buttonc1,
+  #buttonc2,
+  #buttonc3,
+  #buttonc4 {
+    float: right;
+    background-color: white;
+    color: rgb(0, 72, 180);
+  }
+  .destaques h5 {
+    font-weight: bold;
+    font-size: 17px;
+  }
+  #categorias {
+    margin: 15px;
+  }
+  #categorias.dropdown-item {
+    position: absolute !important;
+    z-index: 998px;
+  }
+
+
+
+   /*titulos de seções*/
+   h1.lançamento {
+    padding: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+  }
+  h1.destaque,
+  h1.avaliação,
+  h1.makingof,
+  h1.novidade {
+    display: absolute;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+  }
+  .sobre h1,
+  .redes h1,
+  .editorial h1 {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding-right: 20px;
+  }
+
+  .lançamentos p {
+    font-size: 15px;
+    display: block;
+  }
+  .lançamentos {
+    margin: 40px;
+  }
+  .titulo_filme {
+    font-weight: bold;
+  }
+
+
+  h1.lançamento {
+    padding: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+  }
+  h1.destaque,
+  h1.avaliação,
+  h1.makingof,
+  h1.novidade {
+    display: absolute;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 10px;
+  }
+  .sobre h1,
+  .redes h1,
+  .editorial h1 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .lançamentos p {
+    font-size: 20px;
+    display: block;
+  }
+  .lançamentos {
+    margin: 5%;
+  }
+  .titulo_filme {
+    font-weight: bold;
+  }
+  .sobre p {
+    text-align: center;
+  }
+
+
+
+#descricaopop {
+    right: 70px;
+    left: 400px;
+    margin: 100px;
+    top: 0;
+    background-color: rgba(35, 74, 92, 0);
+    color: black;
+  }
+  #populares img {
+    margin: 30px;
+    margin-left: 70px;
+  }
+  #descricaopoptxt {
+    color: rgb(71, 154, 231) !important;
+    padding: 40px;
+  }

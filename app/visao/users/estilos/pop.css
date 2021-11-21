@@ -1,0 +1,14 @@
+body {
+
+    padding: 0;
+
+    margin: 0;
+
+    background-color: #031753;
+
+    background: -webkit-linear-gradient(right, #21d4fd, #b721ff, #21d4fd, #4615f8);
+    background: -o-linear-gradient(right, #21d4fd, #b721ff, #21d4fd, #4615f8);
+    background: -moz-linear-gradient(right, #21d4fd, #4615f8, #4615f8, #4615f8);
+    background: linear-gradient(right, #21d4fd, #4615f8, #21d4fd, #4615f8);
+
+}
